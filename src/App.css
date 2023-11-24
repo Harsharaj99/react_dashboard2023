@@ -1,0 +1,47 @@
+/* App.css */
+.app {
+    display: flex;
+  }
+  
+  /* Sidebar.css */
+  .sidebar {
+    height: 500px;
+    width: 250px;
+    padding: 20px;
+    background-color: aliceblue;
+    color: #fff;
+    transition: all 0.3s;
+  }
+  
+  .sidebar.closed {
+    width: 0;
+    overflow: hidden;
+  }
+  
+  .toggle-btn {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .app {
+      flex-direction: column;
+    }
+  
+    .sidebar {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .toggle-btn {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    .dashboard {
+      padding: 20px;
+    }
+  
+    .sidebar.closed {
+      width: 100%;
+    }
+  }

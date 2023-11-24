@@ -1,0 +1,21 @@
+
+
+@media screen and (max-width: 600px) {
+    /* .card{
+        display: grid;
+        margin-bottom: 0px;
+    } */
+    .row  {
+        display: grid;
+        width: 900px;
+    /* Single column on smaller screens */
+     height: -60px;
+      display: grid;
+     
+       
+      gap: 5px; /* Adjust the gap between items */
+    }
+   .card1{
+    display: grid;
+   }
+  }
